@@ -1,0 +1,39 @@
+div.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(14, 14, 14);
+}
+
+div.navbar li {
+    float: left;
+}
+
+div.navbar li a {
+    display: block;
+    color: rgb(235, 17, 17);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.navbar li a:hover {
+    background-color: rgb(189, 189, 189);
+}
+
+body {
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+table {
+    background-color: white;
+    color: black;
+}
+
+div.col-xs-3 {
+    border-style: none solid;
+    border-width: 1px;
+    border-color: black;
+}
