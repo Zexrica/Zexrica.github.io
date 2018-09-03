@@ -1,8 +1,9 @@
 body {
-    background: url("background.jpg") center fixed;
-    background-size: cover;
+    background-image: url("background.jpg");
+    background-size: 100% 100vh;
     background-repeat:no-repeat;
-
+    background-position: absolute;
+    background-attachment: fixed;
     color: white;
 }
 nav ul li {
