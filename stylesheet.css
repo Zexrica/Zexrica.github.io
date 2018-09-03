@@ -1,0 +1,102 @@
+body {
+    background-image: url("background.jpg");
+    background-size: 100% 100vh;
+    background-repeat:no-repeat;
+    color: white;
+}
+nav ul li {
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin: 5px;
+    margin-left: -34px;
+    padding: 2px;
+    padding-right: 4px;
+    background-color: black;
+}
+nav ul {
+    float: right;
+    border: 1px solid black;
+    margin-right: 40px;
+    background-color: gray;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px
+}
+nav ul li.top {
+    background-color: darkgray;
+}
+nav ul li.top a {
+    color: black;
+    font-size: 16px
+}
+
+div.mylist{
+    position: fixed;
+    background-color:gray;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+div.mylist li{
+    margin-left: -30px;
+    margin-right: 10px;
+    background-color:black;
+    padding-left: 2px;
+}
+div.mylist ul li.title{
+    display: block;
+    padding: 2px;
+    margin: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color:darkgray;
+    color:black;
+}
+div.mylist ul, ol {
+    padding: 5px;
+    padding-left: 30px;
+    margin-bottom:-15px;
+    margin-top: 0px;
+}
+div.mylist ul.sublist{
+    margin:0;
+}
+div.mylist ul.bottomlist {
+    margin-bottom:20px;
+}
+
+div.htmltable table {
+    background-color: white;
+    color:black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+div.htmltable th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+div.htmltable th, td {
+    padding: 5px;
+    width: 20%;
+}
+div.htmltable th {
+    text-align: center;
+}
+div.htmltable th.tabletop{
+    border-style: none;
+}
+div.htmltable tr{
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-right-color: black;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: black;
+}
