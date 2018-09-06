@@ -6,6 +6,9 @@ body {
     background-attachment: fixed;
     color: white;
 }
+nav li:hover {
+    background-color: darkslategray;
+}
 nav ul li {
     display: block;
     border-style: solid;
@@ -18,6 +21,7 @@ nav ul li {
     background-color: black;
 }
 nav ul {
+    position: relative;
     float: right;
     border: 1px solid black;
     margin-right: 40px;
@@ -72,27 +76,30 @@ div.mylist ul.sublist{
 div.mylist ul.bottomlist {
     margin-bottom:20px;
 }
-
+.htmltable {
+    margin-right: 1%;
+    position: relative;
+}
 div.htmltable table {
-    background-color: white;
+    background-color: gray;
     color:black;
     border-style: solid;
     border-width: 1px;
     border-color: black;
+    padding: 2px;
 }
-div.htmltable th, td {
+div.htmltable th, div.htmltable td {
     border: 1px solid black;
-    border-collapse: collapse;
-}
-div.htmltable th, td {
     padding: 5px;
     width: 20%;
 }
 div.htmltable th {
     text-align: center;
+    background-color:darkgray;
 }
-div.htmltable th.tabletop{
-    border-style: none;
+div.htmltable td {
+    background-color:black;
+    color:white;
 }
 div.htmltable tr{
     border-right-style: solid;
@@ -101,4 +108,160 @@ div.htmltable tr{
     border-left-style: solid;
     border-left-width: 3px;
     border-left-color: black;
+}
+.dashboardoutlay {
+    display: flex;
+    flex-direction: row;
+}
+
+.NBSA {
+    margin-top: 5px;
+    width: 600px;
+    height: 30px;
+}
+
+.progress-bar {
+    background-color: whiteSmoke;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+}
+
+.progressoutlay {
+    position: relative;
+    display: flex;
+    border: 3px solid gray;
+    border-right-width: 6px;
+    border-bottom-width: 4px;
+    width: fit-content;
+    height: fit-content;
+    padding: -3px;
+    background-color: gray;
+    border-top-width: 0px;
+}
+
+progress[value] {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+     appearance: none;
+  
+    width: 600px;
+    height: 20px;
+  }
+progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+progress[value]::-webkit-progress-value {
+    background-image:
+         /* -webkit-linear-gradient(top, 
+                                 rgba(255, 255, 255, .25), 
+                                 rgba(0, 0, 0, .25)), */
+         -webkit-linear-gradient(left, red, orange, green);
+  
+      border-radius: 2px; 
+      background-size: 40%;
+      background-attachment: fixed;
+}
+
+.progressoutlay:hover .progressvalue{
+    display: block;
+}
+
+.progressvalue {
+    display: none;
+    border: 3px solid gray;
+    border-bottom-width: 0px;
+    border-top-width: 6px;
+    border-right-width: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: lightgray;
+    color: black;
+}
+
+.htmltable .EC th {
+    background-color: black;
+    color: white;
+}
+
+.htmltable .EC td {
+    background-color: darkgray;
+    color: black;
+}
+
+.htmltable .voldoende td{
+    background-color: darkgreen;
+}
+
+.htmltable .onvoldoende td {
+    background-color: darkred;
+}
+
+.studiewijzer {
+    background-color: gray;
+    border: 1px solid black;
+    color: black;
+    padding: 4px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.studiewijzerlijst {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+.studiewijzer .studiewijzerlijst a {
+    text-decoration: none;
+    color: black;
+    color: white;    
+}
+
+.studiewijzer .studiewijzerlijst li {
+    margin: 2px;
+    margin-left: -35px;
+    border: 1px solid black;
+    display: block;
+    background-color: black;
+}
+
+.studiewijzertop {
+    border: 1px solid black;
+    background-color: darkgray;
+    margin: 3px;
+    margin-top: 3px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: -10px;
+}
+
+.HBO-ICT {
+    width:fit-content;
+    position: fixed;
+}
+.HBO, .ICT {
+    background-color: gray;
+    border: 1px solid black;
+    width: fit-content;
+    margin: 5px;
+}
+
+.ICT ul, .HBO ul {
+    margin: -10px 15px 10px 15px;
+    padding: 0px 10px 0px 0px;
+}
+
+.ICT li, .HBO li {
+    background-color: black;
+    margin: 5px 0px 0px 5px;
+    padding: 0px 5px;
+}
+
+.HBO-ICT h2 {
+    border: 1px solid black;
+    color: black;
+    margin: 15px 20px;
+    background-color: darkgray;
 }
