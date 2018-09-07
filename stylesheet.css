@@ -263,7 +263,7 @@ progress[value]::-webkit-progress-value {
 
 .HBO-ICT h2 {
     border: 1px solid black;
-    color: white;
+    color: black;
     margin: 15px 20px;
     background-color: darkgray;
 }
