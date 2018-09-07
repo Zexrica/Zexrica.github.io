@@ -51,7 +51,7 @@ section {
 }
 
 .leaves div:nth-child(5) {
-    left:65%;
+    left:80%;
     animation: leaves-animate 17s linear infinite;
     animation-delay: -8s
 }

@@ -2,8 +2,8 @@ body {
     background-image: url("background.jpg");
     background-size: 100% 100vh;
     background-repeat:no-repeat;
-    /* background-position: absolute;
-    background-attachment: fixed; */
+    background-position: absolute;
+    background-attachment: fixed;
     color: white;
 }
 nav li:hover {
@@ -239,7 +239,12 @@ progress[value]::-webkit-progress-value {
 
 .HBO-ICT {
     width:fit-content;
-    position: fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 30vh;
+    align-items: center;
 }
 .HBO, .ICT {
     background-color: gray;
@@ -264,4 +269,34 @@ progress[value]::-webkit-progress-value {
     color: black;
     margin: 15px 20px;
     background-color: darkgray;
+}
+
+.indexlayout {
+    display: flex;
+    margin: 0px 400px;
+    justify-content: center;
+    background-color: darkgray;
+    color: black;
+    border: 5px solid black;
+}
+
+.indexlayout p {
+    font-size: 32px;
+}
+
+.profilelayout {
+    display: flex;
+    flex-direction: row;
+}
+
+.profilepic {
+    position: fixed;
+    margin-left: 26%;
+    border: 3px solid black;
+    background-color: black;
+}
+
+.profileimage {
+    width: 240xp;
+    height: 319px;
 }
