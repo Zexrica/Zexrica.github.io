@@ -1,5 +1,5 @@
 body {
-    background-image: url("background.jpg");
+    background-image: url("./images/background.jpg");
     background-size: 100% 100vh;
     background-repeat:no-repeat;
     background-position: absolute;
@@ -296,4 +296,66 @@ progress[value]::-webkit-progress-value {
 .profileimage {
     width: 240xp;
     height: 319px;
+}
+
+.motivatie {
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    padding: 0px 10px;
+    background-color:gray;
+}
+
+.motivatie p {
+    border: 1px black solid;
+    background-color:darkgray;
+    margin: 5px;
+    color:black;
+}
+
+.motivatie h1 {
+    border: 1px black solid;
+    background-color:darkgray;
+    color: black;
+}
+
+.motivatie h2 {
+    background-color: black;
+    margin: 10px;
+}
+
+.motivatie h3, .motivatie h4 {
+    margin: 5px;
+}
+
+.HBO-I-foto {
+    width: 600xp;
+    height: 800px;
+}
+
+.omoda {
+    width: 300xp;
+    height: 300px;
+}
+
+.beroepsbeeldoutlay {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background-color: gray;
+
+}
+
+.beroepsbeeldoutlay li {
+    background-color: black;
+    margin-right: 400px;
+}
+
+.HBO-photo {
+    display: flex;
+}
+
+.beroepsbeeldoutlay p {
+    color: black;
+    margin: 10px;
 }
